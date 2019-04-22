@@ -15,6 +15,10 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source-greeting")
     end
   end
+
+  def copyright_generator
+    FinneusViewTool::Renderer.copyright 'Michael Wickert', 'All rights reserved'
+  end
 end
 
 

@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/MikeWick/finneus_view_tool
+  revision: 2ceb0aee753634d2fb6c46862d488aeb8d3a5f20
+  specs:
+    finneus_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -203,6 +209,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
   devise (~> 4.2)
+  finneus_view_tool!
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
