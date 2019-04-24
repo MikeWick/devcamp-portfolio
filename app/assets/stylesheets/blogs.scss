@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "font-awesome";
 
 /*
  * Globals
@@ -160,9 +161,17 @@ h6, .h6 {
   padding: 2.5rem 0;
   color: #999;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: white;
   border-top: .05rem solid #e5e5e5;
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+
+/*
+ * Custom styles
+ */
+
+ .social-links li {
+ font-size: 2.5em;
+ }
