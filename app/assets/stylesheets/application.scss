@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "font-awesome";
 @import "gritter";
 
 /*
@@ -215,7 +216,7 @@ body {
 }
 
 .tech-news a {
-  color: rgb(125, 130, 253);
+  color: #ffe36c;
 }
 
 .tech-news > .card {
@@ -223,7 +224,20 @@ body {
   box-shadow: 0 50px 75px rgba(0,0,0,0.25), 0 45px 40px rgba(0,0,0,0.17);
 }
 
+.app-card-container {
+  color: white;
+}
 
+.app-card-container > .card {
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.18);
+}
+
+.tech-news > .card {
+  color: white;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 
 
