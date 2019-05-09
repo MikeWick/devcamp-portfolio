@@ -3,7 +3,16 @@
     <h4>About</h4>
     <p>A place to share news, thoughts, and adventures in computer programming and beyond.</p>
   </div>
-
+  
+  <%= source_helper("alert alert-warning mt-2") %>
+  
+  <div class="sidebar-module">
+    <h4>Topics</h4>
+    <% @side_bar_topics.each do |topic| %>
+      <p><%= link_to topic.title, topic_path(topic) %></p>
+    <% end %>
+  </div>
+  
   <div class="sidebar-module">
     <h4>Elsewhere</h4>
     <ol class="list-unstyled social-links">

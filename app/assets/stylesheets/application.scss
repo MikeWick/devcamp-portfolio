@@ -1,5 +1,16 @@
 @import "bootstrap";
+@import "font-awesome";
 @import "gritter";
+
+//@font-face {
+//  font-family: 'Raleway', sans-serif;
+//  src:font-url('Raleway-Regular.ttf');
+//}
+//
+//@font-face {
+//  font-family: 'Roboto Slab', serif;
+//  src:font-url('RobotoSlab-Regular.ttf');
+//}
 
 /*
  * Globals
@@ -30,11 +41,21 @@ a:hover {
 html,
 body {
   height: 100%;
+  font-family: 'Raleway', sans-serif;
 }
 body {
   color: #fff;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: 'Roboto Slab', serif;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -215,7 +236,7 @@ body {
 }
 
 .tech-news a {
-  color: rgb(125, 130, 253);
+  color: #ffe36c;
 }
 
 .tech-news > .card {
@@ -223,9 +244,25 @@ body {
   box-shadow: 0 50px 75px rgba(0,0,0,0.25), 0 45px 40px rgba(0,0,0,0.17);
 }
 
+.app-card-container {
+  color: white;
+}
 
+.app-card-container > .card {
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.18);
+}
 
+.tech-news > .card {
+  color: white;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
+.card-block {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
 
 

@@ -1,20 +1,75 @@
+<div class="app-card-container">
+  <div class="card">
+    <div class="row">
+      <div class="col-md-6">
+        <%= image_tag "about_me_journey.jpg", width: '100%', alt: "about me image" %>
+      </div>
 
-<div class="row">
-  <div class="col-md-6">
-    <%= image_tag "about_me_journey.jpg", width: 350, alt: "about me image" %>
-    <hr>
-  </div>
+      <div class="col-md-6">
+        <h1>About Me</h1>
 
+        <hr>
 
+        <p>After a decade of experience in the biotech industry working on various production and purification processes, I was eager to take on new challenges and learn innovative technologies.</p>
 
-  <div class="col-md-6">
-    <h1>About Me</h1>
-
-    <hr>
-
-    <p>After a decade of experience in the biotech industry working on various production and purification processes, I was eager to take on new challenges and learn innovative technologies.</p>
-
-    <p>This desire led me on a journey into software development and has opened up a whole new world of opportunities to learn and grow as a full stack developer.</p>
+        <p>This desire led me on a journey into software development and has opened up a whole new world of opportunities to learn and grow as a full stack developer.</p>
+        
+        <p>
+          <button
+            class="btn btn-warning"
+            type="button"
+            data-toggle="collapse"      
+            data-target="#jobHistory"
+            aria-expanded="false"
+            aria-controller="jobHistory"
+                  >
+            Job History
+          </button>
+          
+          <button
+            class="btn btn-warning"
+            type="button"
+            data-toggle="collapse"      
+            data-target="#education"
+            aria-expanded="false"
+            aria-controller="education"
+                  >
+            Education
+          </button>
+        </p>
+        
+        <div>
+          <div class="collapse" id="jobHistory">
+            <div class="card card-block">
+              Job 1
+            </div>
+            <div class="card card-block">
+              Job 2
+            </div>
+            <div class="card card-block">
+              Job 3
+            </div>
+          </div>
+          
+          <div class="collapse" id="education">
+            <div class="card card-block">
+              School 1
+            </div>
+            <div class="card card-block">
+              School 2
+            </div>
+            <div class="card card-block">
+              School 3
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
   </div>
 </div>
+
+
+
 
