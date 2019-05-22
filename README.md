@@ -11,5 +11,6 @@
 - Integrated Twitter API to display coding related tweets
 - Used SQL database to manage users, portfolios, blog posts, and comments in the app
 
+***
 
 <img src="/app/assets/images/create_portfolio.png" width="100%" alt="create portfolio">
