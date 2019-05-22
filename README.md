@@ -12,4 +12,4 @@
 - Used SQL database to manage users, portfolios, blog posts, and comments in the app
 
 
-<img src="app/assets/images/create_portfolio.png" width: "100%" alt: "create portfolio">
+<img src="/app/assets/images/create_portfolio.png" width="100%" alt="create portfolio">
