@@ -57,7 +57,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'rb-readline'
 gem 'friendly_id', '~> 5.1.0'
-gem 'devise', '~> 4.2'
+gem 'devise', '~> 4.7'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'popper_js'
 gem 'finneus_view_tool', '~> 0.1.1'
